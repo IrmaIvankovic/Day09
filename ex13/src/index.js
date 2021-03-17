@@ -7,12 +7,10 @@ function inverseWhile() {
           } else {
             fiveNumbers += i + ",";
           }
-      
           i--;
         
     }
     return fiveNumbers;
 }
-
 console.log(inverseWhile());
 module.exports = inverseWhile;
